@@ -1,2 +1,78 @@
+* {
+  box-sizing: border-box;
+}
 .robot-container {
+  margin: 10%;
+  margin-top: 200px;
+}
+.head-container {
+  background-color: #555555;
+  width: 300px;
+  height: 400px;
+}
+#face-plate-inlay {
+  background-color: #000000;
+  width: 110px;
+  height: 350px;
+  position: absolute;
+  margin-left: 95px;
+}
+.face-plate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.face-plate * {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.face-plate-upper,
+.face-plate-lower {
+  width: 100px;
+  height: 100px;
+}
+.face {
+  flex-direction: column;
+  align-items: center;
+}
+.mouth {
+  width: 250px;
+  height: 100px;
+  background-color: #000000;
+  border-radius: 0% 0% 100px 100px;
+
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 70px;
+}
+.light {
+  background: radial-gradient(#ffffff, #999999);
+  border: 2px solid;
+  border-radius: 50%;
+  z-index: 2;
+}
+.eye {
+  width: 100px;
+  height: 100px;
+  margin-bottom: -25px;
+}
+.mouth-dot,
+.pupil {
+  width: 50px;
+  height: 50px;
+}
+#pupil {
+  border: 10px solid;
+  border-color: #999999;
+  margin: 23px;
+}
+#operating {
+  width: 20px;
+  height: 20px;
+  margin-top: 50px;
+  margin-left: 80px;
 }
