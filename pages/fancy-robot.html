@@ -20,10 +20,20 @@
         </ul>
       </nav>
     </header>
+
     <div class="robot-container">
+      <div class="ears"></div>
+      <div class="above-head">
+        <div id="above-head-inlay"></div>
+      </div>
       <div class="head-container">
-        <div id="face-plate-inlay"></div>
+        <div class="quote">
+          <p>"Do you feel safe, Daughter?"</p>
+          <div id="quote-tail"></div>
+        </div>
+
         <div class="face-plate">
+          <div id="face-plate-inlay"></div>
           <div class="face-plate-upper"></div>
           <div class="face">
             <div class="eye light">
@@ -40,7 +50,30 @@
           </div>
         </div>
       </div>
-      <div class="shoulders-container"></div>
+      <div class="neck-container">
+        <div class="neck" id="neck-upper"></div>
+        <div class="neck" id="neck-lower"></div>
+      </div>
+      <div id="neck-swivel"></div>
+      <div class="shoulders-container">
+        <div id="shoulder-pads"></div>
+        <div class="info-panel">
+          <div id="camera"></div>
+          <div id="console"></div>
+          <div id="mid-line"></div>
+          <div class="light-panel">
+            <div class="square"></div>
+            <!-- TODO add a set of lights to satisfy Teeth since mother doesnt have teeth-->
+            <div class="status light"></div>
+            <div class="status light"></div>
+            <div class="status light"></div>
+            <div class="status light"></div>
+            <div class="status light"></div>
+            <div class="status light" id="upper-status"></div>
+          </div>
+        </div>
+        <div id="heater-plate"></div>
+      </div>
     </div>
   </body>
 </html>
